@@ -84,6 +84,7 @@ Chaotic maps generate high-entropy pseudo-random sequences essential for robust 
 
 ### 3.1. System Architecture
 
+![System Architecture](Secret/Architechture.png)
 The system is designed to ensure secure and efficient uploading, encryption, storage, and playback of audio. Key components include:
 
 - **Author Upload:**
