@@ -61,7 +61,7 @@ Develop an encryption and decryption system to ensure:
 
 ---
 
-## 2. Background
+## 2. Background 
 
 ### 2.1. Double DNA Encoding
 
@@ -77,6 +77,22 @@ Chaotic maps generate high-entropy pseudo-random sequences essential for robust 
 
 - **Properties:** Non-linearity and sensitivity to initial conditions.
 - **Types Used:** Sine-Cosine Map (SC map) and Logistic Sine-Cosine Map (LSC map) for improved randomness.
+
+### 2.3. Research Basis
+
+The encryption techniques used in this project are inspired by the work of Wang and Su in their article *"An audio encryption algorithm based on DNA coding and chaotic system"* ([Wang & Su, 2019](https://ieeexplore.ieee.org/document/8625371)). Their study explores the combination of DNA coding and chaotic systems to enhance the security of audio data. Building upon their proposed model, this project adapts and extends the DNA-based encryption and chaotic maps approach to fit the specific requirements of a multimedia product service platform.
+
+**Reference:**
+
+@article{wang2019audio,  
+&nbsp;&nbsp;title={An audio encryption algorithm based on DNA coding and chaotic system},  
+&nbsp;&nbsp;author={Wang, Xingyuan and Su, Yining},  
+&nbsp;&nbsp;journal={IEEE Access},  
+&nbsp;&nbsp;volume={8},  
+&nbsp;&nbsp;pages={9260--9270},  
+&nbsp;&nbsp;year={2019},  
+&nbsp;&nbsp;publisher={IEEE}  
+}
 
 ---
 
