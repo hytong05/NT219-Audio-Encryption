@@ -80,7 +80,7 @@ Chaotic maps generate high-entropy pseudo-random sequences essential for robust 
 
 ### 2.3. Research Basis
 
-The encryption techniques used in this project are inspired by the work of Wang and Su in their article *"An audio encryption algorithm based on DNA coding and chaotic system"* ([Wang & Su, 2019](https://ieeexplore.ieee.org/document/8625371)). Their study explores the combination of DNA coding and chaotic systems to enhance the security of audio data. Building upon their proposed model, this project adapts and extends the DNA-based encryption and chaotic maps approach to fit the specific requirements of a multimedia product service platform.
+The encryption techniques used in this project are inspired by the work of Wang and Su in their article *"An audio encryption algorithm based on DNA coding and chaotic system"* ([Wang & Su, 2019](https://ieeexplore.ieee.org/abstract/document/8946578/)). Their study explores the combination of DNA coding and chaotic systems to enhance the security of audio data. Building upon their proposed model, this project adapts and extends the DNA-based encryption and chaotic maps approach to fit the specific requirements of a multimedia product service platform.
 
 **Reference:**
 
