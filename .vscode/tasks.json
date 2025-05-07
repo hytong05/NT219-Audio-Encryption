@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Python: Run active file",
+      "command": "C:\\Users\\ACER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: C:\\Users\\ACER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+    }
+  ]
+}

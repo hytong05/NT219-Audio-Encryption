@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+</head>
+<body>
+
+<div id="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="button" onclick="login()">Login</button>
+    </form>
+</div>
+
+<div id="song-list-container" style="display: none;">
+    <h2>Song List</h2>
+    <table id="song-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody id="song-table-body"></tbody>
+    </table>
+
+    <label for="song-id">Enter Song ID:</label>
+    <input type="number" id="song-id" name="song-id" required>
+    <button type="button" onclick="playSong()">Play Song</button>
+</div>
+<script src="login.js"></script>
+</body>
+</html>

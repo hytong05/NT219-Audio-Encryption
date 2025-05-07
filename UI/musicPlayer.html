@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="musicPlayer.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+
+    <div>
+        <select id="songList" onchange="loadSelectedSong()">
+            <option value="">-- Chọn bài hát --</option>
+            <!-- Danh sách bài hát sẽ được thêm vào đây bằng JavaScript -->
+        </select>
+    </div>
+
+    <audio id="myAudio" controls>
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="controls">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="rewind()">Rewind 10s</button>
+        <button onclick="forward()">Forward 10s</button>
+    </div>
+
+    <script src="musicPlayer.js"></script>
+</body>
+</html>
