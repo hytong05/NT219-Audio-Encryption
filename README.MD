@@ -2,7 +2,7 @@
 
 **Students:**
 
-- Duong Pham Huy Thong (2252121431)  
+- Duong Pham Huy Thong (22521431)  
 - Cao Qui (22521208)
 
 **Class:** NT219.O11.ANTN  
